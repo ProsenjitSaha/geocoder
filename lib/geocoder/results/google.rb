@@ -18,7 +18,7 @@ module Geocoder::Result
     end
 
     def city
-      fields = [:locality, :sublocality,
+      fields = [:sublocality, :locality,
         :administrative_area_level_3,
         :administrative_area_level_2]
       fields.each do |f|
